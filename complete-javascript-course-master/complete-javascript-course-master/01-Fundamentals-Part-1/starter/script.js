@@ -28,32 +28,42 @@
 
 ////////////////////////////
 //Data Types
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+// let javascriptIsFun = true;
+// console.log(javascriptIsFun);
 
-console.log(typeof javascriptIsFun);
+// console.log(typeof javascriptIsFun);
 // console.log(typeof 23);
 // console.log(typeof "jonas");
 // console.log(typeof PI);
 // console.log(typeof 244442662677276355525636626n);
 // console.log(typeof userID);
 
-javascriptIsFun = "YES";
-console.log(typeof javascriptIsFun);
+// javascriptIsFun = "YES";
+// console.log(typeof javascriptIsFun);
 
-let year;
-console.log(year);
-console.log(typeof year);
+// let year;
+// console.log(year);
+// console.log(typeof year);
 
-console.log(typeof null);
+// console.log(typeof null);
 
 //ASSIGNMENTS
 ////////////////////
 //Values and variables
-// let country = "Nigeria";
-// let continent = "Africa";
-// let population = "Two Hundred and Thirty Two Million";
+let country = "Nigeria";
+let continent = "Africa";
+let population = "Two Hundred and Thirty Two Million";
 
-// console.log(country);
-// console.log(continent);
-// console.log(population);
+console.log(country);
+console.log(continent);
+console.log(population);
+
+////////////////////
+//Data types
+let isIsland = false;
+let language;
+
+console.log(typeof isIsland);
+console.log(typeof country);
+console.log(typeof population);
+console.log(typeof language);
