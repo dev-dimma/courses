@@ -49,27 +49,27 @@
 
 ////////////////////////////
 //Let, const, var
-let age = 30;
-age = 31;
+// let age = 30;
+// age = 31;
 
-const birthYear = 1991;
+// const birthYear = 1991;
 // birthYear = 1990;
 // const job; (can't reassign constant variables or declare them without a value because they can't be changed)
 
-var job = "programmer";
-job = "teacher";
-console.log(job);
+// var job = "programmer";
+// job = "teacher";
+// console.log(job);
 //var variables are function scoped
 
-lastName = "Schmedtmann";
-console.log(lastName);
+// lastName = "Schmedtmann";
+// console.log(lastName);
 //Though it's possible to declare a variable without const, let or var keyword, it's a bad practice and highly discouraged
 
 //ASSIGNMENTS
 ////////////////////
 //Values and variables
-let country = "Nigeria";
-let continent = "Africa";
+const country = "Nigeria";
+const continent = "Africa";
 let population = "Two Hundred and Thirty Two Million";
 
 console.log(country);
@@ -78,10 +78,17 @@ console.log(population);
 
 ////////////////////
 //Data types
-let isIsland = false;
+const isIsland = false;
 let language;
 
 console.log(typeof isIsland);
 console.log(typeof country);
 console.log(typeof population);
 console.log(typeof language);
+
+////////////////////
+//Let, Const and Var
+
+language = "English";
+
+// isIsland = true;
