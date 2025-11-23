@@ -90,6 +90,15 @@ x--; // x = x - 1 // 100
 x--; // x = x - 1 // 99
 console.log(x);
 
+//Comaparison Operators
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge);
+
+console.log(now - 1991 > now - 2018);
+
 //ASSIGNMENTS
 ////////////////////
 //Values and variables
