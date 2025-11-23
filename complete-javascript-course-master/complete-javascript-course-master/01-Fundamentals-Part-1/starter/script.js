@@ -68,43 +68,43 @@
 ////////////////////////////
 //Basic Operators
 //Math operarors
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
-const ageDimma = now - 2002;
-console.log(ageJonas, ageSarah, ageDimma);
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+// const ageDimma = now - 2002;
+// console.log(ageJonas, ageSarah, ageDimma);
 
-console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
-//2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+// console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+// //2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-const firstName = "Dimma";
-const lastName = "Joel";
-console.log(firstName + " " + lastName);
+// const firstName = "Dimma";
+// const lastName = "Joel";
+// console.log(firstName + " " + lastName);
 
-//Assignment Operators
-let x = 10 + 5; //15
-x += 10; // x = x + 10 = 25
-x *= 4; // x = x * 4 = 100
-x++; // x = x + 1 // 101
-x--; // x = x - 1 // 100
-x--; // x = x - 1 // 99
-console.log(x);
+// //Assignment Operators
+// let x = 10 + 5; //15
+// x += 10; // x = x + 10 = 25
+// x *= 4; // x = x * 4 = 100
+// x++; // x = x + 1 // 101
+// x--; // x = x - 1 // 100
+// x--; // x = x - 1 // 99
+// console.log(x);
 
-//Comaparison Operators
-console.log(ageJonas > ageSarah); // >, <, >=, <=
-console.log(ageSarah >= 18);
+// //Comaparison Operators
+// console.log(ageJonas > ageSarah); // >, <, >=, <=
+// console.log(ageSarah >= 18);
 
-const isFullAge = ageSarah >= 18;
-console.log(isFullAge);
+// const isFullAge = ageSarah >= 18;
+// console.log(isFullAge);
 
-console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
 
 //ASSIGNMENTS
 ////////////////////
 //Values and variables
-// const country = "Nigeria";
-// const continent = "Africa";
-// let population = "Two Hundred and Thirty Two Million";
+const country = "Nigeria";
+const continent = "Africa";
+let population = 232;
 
 // console.log(country);
 // console.log(continent);
@@ -112,8 +112,8 @@ console.log(now - 1991 > now - 2018);
 
 ////////////////////
 //Data types
-// const isIsland = false;
-// let language;
+const isIsland = false;
+let language;
 
 // console.log(typeof isIsland);
 // console.log(typeof country);
@@ -122,5 +122,35 @@ console.log(now - 1991 > now - 2018);
 
 ////////////////////
 //Let, Const and Var
-// language = "English";
+language = "English";
 // isIsland = true;
+
+////////////////////
+//Basic Operators
+population = population / 2;
+population++;
+console.log(population);
+
+let finlandPopulation = 6;
+console.log(population > finlandPopulation);
+
+let averagePopulation = 33;
+console.log(population < averagePopulation);
+
+const description =
+  country +
+  " " +
+  "is in" +
+  " " +
+  continent +
+  "," +
+  " " +
+  "and its" +
+  " " +
+  population +
+  " " +
+  "million people speak" +
+  " " +
+  language;
+
+console.log(description);
