@@ -99,6 +99,21 @@
 
 // console.log(now - 1991 > now - 2018);
 
+////////////////////////////
+//Basic Operators
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSarah) / 2;
+console.log(ageJonas, ageSarah, averageAge);
+
 //ASSIGNMENTS
 ////////////////////
 //Values and variables
@@ -127,30 +142,63 @@ language = "English";
 
 ////////////////////
 //Basic Operators
-population = population / 2;
-population++;
-console.log(population);
+// population = population / 2;
+// population++;
+// console.log(population);
 
-let finlandPopulation = 6;
-console.log(population > finlandPopulation);
+// let finlandPopulation = 6;
+// console.log(population > finlandPopulation);
 
-let averagePopulation = 33;
-console.log(population < averagePopulation);
+// let averagePopulation = 33;
+// console.log(population < averagePopulation);
 
-const description =
-  country +
-  " " +
-  "is in" +
-  " " +
-  continent +
-  "," +
-  " " +
-  "and its" +
-  " " +
-  population +
-  " " +
-  "million people speak" +
-  " " +
-  language;
+// const description =
+//   country +
+//   " " +
+//   "is in" +
+//   " " +
+//   continent +
+//   "," +
+//   " " +
+//   "and its" +
+//   " " +
+//   population +
+//   " " +
+//   "million people speak" +
+//   " " +
+//   language;
 
-console.log(description);
+// console.log(description);
+
+///////////////////////////////
+//CHALLENGE 1 SOLUTION
+//TEST DATA 1
+const massMark = 78;
+const heightMark = 1.69;
+
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark);
+console.log(BMIJohn);
+
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
+
+//TEST DATA 2
+
+// const massMark = 95;
+// const heightMark = 1.88;
+
+// const massJohn = 85;
+// const heightJohn =1.76;
+
+// const BMIMark = massMark / (heightMark * heightMark);
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark);
+// console.log(BMIJohn)
+
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log(markHigherBMI);
