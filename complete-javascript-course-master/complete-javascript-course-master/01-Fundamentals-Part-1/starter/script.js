@@ -65,30 +65,53 @@
 // console.log(lastName);
 //Though it's possible to declare a variable without const, let or var keyword, it's a bad practice and highly discouraged
 
+////////////////////////////
+//Basic Operators
+//Math operarors
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+const ageDimma = now - 2002;
+console.log(ageJonas, ageSarah, ageDimma);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
+//2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = "Dimma";
+const lastName = "Joel";
+console.log(firstName + " " + lastName);
+
+//Assignment Operators
+let x = 10 + 5; //15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 // 101
+x--; // x = x - 1 // 100
+x--; // x = x - 1 // 99
+console.log(x);
+
 //ASSIGNMENTS
 ////////////////////
 //Values and variables
-const country = "Nigeria";
-const continent = "Africa";
-let population = "Two Hundred and Thirty Two Million";
+// const country = "Nigeria";
+// const continent = "Africa";
+// let population = "Two Hundred and Thirty Two Million";
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
 ////////////////////
 //Data types
-const isIsland = false;
-let language;
+// const isIsland = false;
+// let language;
 
-console.log(typeof isIsland);
-console.log(typeof country);
-console.log(typeof population);
-console.log(typeof language);
+// console.log(typeof isIsland);
+// console.log(typeof country);
+// console.log(typeof population);
+// console.log(typeof language);
 
 ////////////////////
 //Let, Const and Var
-
-language = "English";
-
+// language = "English";
 // isIsland = true;
