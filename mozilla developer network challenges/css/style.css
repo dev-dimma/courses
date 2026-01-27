@@ -1,3 +1,20 @@
 h1 {
   color: red;
 }
+
+.special {
+  color: orange;
+}
+a:link {
+  color: pink;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}

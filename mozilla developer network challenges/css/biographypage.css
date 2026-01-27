@@ -1,0 +1,45 @@
+html {
+  background-color: white;
+}
+
+body {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  font: 1.2em / 1.5 system-ui;
+  background-color: #efefef;
+}
+
+h1 {
+  font-size: 2rem;
+  color: darkslategray;
+  border-bottom: 10px dotted purple;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+ul {
+  padding: 30px;
+  border: 5px solid purple;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.job-title {
+  font-weight: bold;
+  color: darkslategray;
+}
+
+a:link {
+  color: green;
+}
+
+a:hover,
+a:focus {
+  cursor: pointer;
+  color: darkgreen;
+  text-decoration: none;
+}
