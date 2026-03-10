@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+//Blocking, Synchronous Way
 //reading a file synchronously
 const textIn = fs.readFileSync("./txt/input.txt/", "utf-8");
 console.log(textIn);
