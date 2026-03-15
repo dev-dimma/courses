@@ -12,3 +12,7 @@ let age = 30;
 const pi = 3.14;
 console.log(age); //output: 30
 console.log(age); //output: 3.14
+
+//Boolean: A value that can be either true or false
+const isStudent = true;
+console.log(isStudent);
