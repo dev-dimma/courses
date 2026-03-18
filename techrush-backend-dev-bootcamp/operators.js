@@ -19,8 +19,19 @@ let e = x === y;
 let f = x !== y;
 let g = x > y;
 let h = x < y;
-
 console.log(e);
 console.log(f);
 console.log(g);
 console.log(h);
+
+//Assignment Operators
+let i = 50;
+let j = (i += 5);
+let l = i - +10;
+let m = (i *= 2);
+let n = (i /= 5);
+console.log(i);
+console.log(j);
+console.log(l);
+console.log(m);
+console.log(n);
