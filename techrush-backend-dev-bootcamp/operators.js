@@ -13,3 +13,14 @@ console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
+
+//Comparison Operators
+let e = x === y;
+let f = x !== y;
+let g = x > y;
+let h = x < y;
+
+console.log(e);
+console.log(f);
+console.log(g);
+console.log(h);
