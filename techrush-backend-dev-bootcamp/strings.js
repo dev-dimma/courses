@@ -40,6 +40,20 @@ console.log(starts);
 let ends = userName.endsWith("6"); //return boolean datatype
 console.log(ends);
 
+//slice and substring
+let testString = "my name is Esther! ";
+let slicedString = testString.slice(0, 10);
+let substringString = testString.substring(0, 10);
+console.log(slicedString);
+console.log(substringString);
+
+//replace and replaceAll
+let text = "Esther is a techie. Esther loves coding and Esther loves teaching";
+let replacedText = text.replace("Esther", "She");
+let replacedAllText = text.replaceAll("Esther", "She");
+console.log(replacedText);
+console.log(replacedAllText);
+
 //CLASSWORK
 // Given this string:
 // const msg = "  Hello, WORLD!  ";
@@ -74,3 +88,14 @@ console.log(replaceWorld);
 
 const replaceL = msg.replaceAll("L", "1");
 console.log(replaceL);
+
+const getCharacters = msg.slice("3", "8");
+console.log(getCharacters);
+
+//split
+const sentence = "LANGUAGES: JavaScript, Python, Java, C++";
+let splitSentence = sentence.split(",");
+console.log(splitSentence);
+
+let example = "she is a girl, she is a teacher, she is eating";
+console.log(example.split(","));
