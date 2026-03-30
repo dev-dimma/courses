@@ -42,8 +42,8 @@ console.log(ends);
 
 //slice and substring
 let testString = "my name is Esther! ";
-let slicedString = testString.slice(0, 10);
-let substringString = testString.substring(0, 10);
+let slicedString = testString.slice(0, 10); //can count backwards e.g (-9)
+let substringString = testString.substring(0, 10); //can't count backwards e.g(-9) starts from zero
 console.log(slicedString);
 console.log(substringString);
 
@@ -98,4 +98,4 @@ let splitSentence = sentence.split(",");
 console.log(splitSentence);
 
 let example = "she is a girl, she is a teacher, she is eating";
-console.log(example.split(","));
+console.log(example.split("is"));

@@ -32,7 +32,7 @@ console.log(myString);
 console.log(myNumber);
 console.log(myBoolean);
 
-//Non-Primitives Data Types: Onjects, Array, Function
+//Non-Primitives Data Types: Objects, Array, Function
 let myObject = { name: "John", age: 30 };
 let myArray = [
   "Rice",

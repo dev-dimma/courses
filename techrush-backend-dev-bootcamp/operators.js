@@ -27,7 +27,7 @@ console.log(h);
 //Assignment Operators
 let i = 50;
 let j = (i += 5);
-let l = i - +10;
+let l = (i -= 10);
 let m = (i *= 2);
 let n = (i /= 5);
 console.log(i);
