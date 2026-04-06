@@ -47,3 +47,39 @@ let adults = age.filter(function (age) {
   return age >= 18;
 });
 console.log(adults);
+
+//find method
+const studentsNames = ["John", "John", "Ada", "Doe", "Jane", "Smith", "Bola"];
+const found = studentsNames.find((name) => {
+  return name === "John";
+});
+console.log(found);
+
+//reduce method
+let cartPrices = [1500, 800, 2200, 450, 1000];
+let total = cartPrices.reduce(function (accumulator, currentPrice) {
+  return accumulator + currentPrice;
+}, 10000); //accumulator, current value, initial value
+console.log(total);
+
+//Arrow function version
+let grandTotal = cartPrices.reduce((acc, price) => {
+  return acc + price;
+}, 0);
+console.log(grandTotal);
+
+//push, pop, shift, unshift
+let colors = ["red", "blue", "green"];
+colors.push("yellow"); //add an element to the end of the array
+
+let lastColor = colors.pop(); //removes the last element from the array
+console.log(colors);
+console.log(lastColor);
+
+let firstColor = colors.shift(); //remove the first element from the array
+console.log(colors);
+console.log(firstColor);
+
+let newLength = colors.unshift("purple"); //add an element to the beginning of the array
+console.log(colors);
+console.log(newLength);
