@@ -131,33 +131,112 @@
 // - Check if it's a `.com` domain using `endsWith()`.
 // - Replace `@` with `AT` using `replace()`.
 
-// solution one
-const str = "Nigeria is awesome";
-const extractNigeria = str.substring(0, 7);
-const extractAwesome = str.slice(11, 18);
-const getIs = str.slice(8, 10);
-console.log(extractNigeria);
-console.log(extractAwesome);
-console.log(getIs);
+// // solution one
+// const str = "Nigeria is awesome";
+// const extractNigeria = str.substring(0, 7);
+// const extractAwesome = str.slice(11, 18);
+// const getIs = str.slice(8, 10);
+// console.log(extractNigeria);
+// console.log(extractAwesome);
+// console.log(getIs);
 
-// solution two
-const names = "John,Jane,Doe";
-const splitNames = names.split(",");
-const joinNames = splitNames.join(" ");
+// // solution two
+// const names = "John,Jane,Doe";
+// const splitNames = names.split(",");
+// const joinNames = splitNames.join(" ");
 
-const path = "/user/home/docs";
-const splitByStroke = path.split("/");
-const getHome = splitByStroke[2];
-console.log(splitNames);
-console.log(joinNames);
-console.log(splitByStroke);
-console.log(getHome);
+// const path = "/user/home/docs";
+// const splitByStroke = path.split("/");
+// const getHome = splitByStroke[2];
+// console.log(splitNames);
+// console.log(joinNames);
+// console.log(splitByStroke);
+// console.log(getHome);
 
-// solution three
-const email = "user@example.com";
-const getUserName = email.split("@")[0];
-const isItDotCom = email.endsWith(".com");
-const replaceAt = email.replace("@", "AT");
-console.log(getUserName);
-console.log(isItDotCom);
-console.log(replaceAt);
+// // solution three
+// const email = "user@example.com";
+// const getUserName = email.split("@")[0];
+// const isItDotCom = email.endsWith(".com");
+// const replaceAt = email.replace("@", "AT");
+// console.log(getUserName);
+// console.log(isItDotCom);
+// console.log(replaceAt);
+
+/////////////////////////////////////////////////////
+// ASSIGNMENT 3
+// 1. Given the array below:
+// const numbers = [2, 4, 6, 8, 10];
+// Use forEach() to print each number multiplied by 2.
+
+// 2. Given the array below:
+// const names = ["Esther", "John", "Ada", "Mike"];
+// Use forEach() to print a message in this format:
+// Hello Esther!
+// Hello John!...
+
+// 3. Given the array below:
+// const numbers = [1, 2, 3, 4, 5];
+// Use map() to create a new array where each number is squared.
+
+// 4. Given the array below:
+// const prices = [100, 200, 300];
+// Use map() to create a new array where each price has a 10% discount applied.
+
+// 5. Given the array below:
+// const numbers = [5, 12, 8, 20, 3];
+// Use filter() to create a new array that contains only numbers greater than 10.
+
+// 6. Given the array below:
+// const ages = [15, 22, 17, 30, 18];
+// Use filter() to return only ages that are 18 and above.
+
+// 7. Given the array below:
+// const numbers = [10, 15, 20, 25, 30];
+// First, use filter() to get numbers greater than 20
+// Then, use map() to double the remaining numbers
+
+//sol 1
+const numbers = [2, 4, 6, 8, 10];
+numbers.forEach(function (number) {
+  console.log(number * 2);
+});
+
+//sol 2
+const names = ["Esther", "John", "Ada", "Mike"];
+names.forEach(function (name) {
+  console.log("Hello " + name + "!");
+});
+
+//sol 3
+const number2 = [1, 2, 3, 4, 5];
+const squaredNumbers = number2.map(function (number) {
+  return number ** 2;
+});
+console.log(squaredNumbers);
+
+//sol 4
+const prices = [100, 200, 300];
+const discountedPrices = prices.map((price) => price * 0.9);
+console.log(discountedPrices);
+
+//sol 5
+const number3 = [5, 12, 8, 20, 3];
+const filteredNumbers = number3.filter(function (number) {
+  return number > 10;
+});
+console.log(filteredNumbers);
+
+//sol 6
+const ages = [15, 22, 17, 30, 18];
+const filteredAges = ages.filter((age) => age >= 18);
+console.log(filteredAges);
+
+//sol 7
+const number4 = [10, 15, 20, 25, 30];
+const filteredNumberFour = number4.filter((number) => number > 20);
+console.log(filteredNumberFour);
+
+const mappedNumber = filteredNumberFour.map(function (number) {
+  return number * 2;
+});
+console.log(mappedNumber);
