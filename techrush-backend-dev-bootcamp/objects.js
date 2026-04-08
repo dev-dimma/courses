@@ -3,6 +3,7 @@ let obj = {
   age: 25,
   profession: "Developer",
 };
+
 //Accessing data in objects
 let student = {
   name: "Ngozi Adeyemi",
@@ -68,3 +69,25 @@ const { nombre, ...rest } = {
   age: 25,
   city: "Lagos",
 };
+
+//Iterating over objects
+const user = {
+  name: "Esther",
+  password: 1234,
+  isFemale: true,
+  city: "Lagos",
+  age: 25,
+};
+
+console.log(Object.keys(user));
+console.log(Object.values(user));
+console.log(Object.entries(user));
+//for in
+for (let key in user) {
+  console.log("these are the keys : " + key);
+  console.log("these are the values : " + user[key]);
+}
+
+for (let value in user) {
+  console.log("these are the values: " + user[value]); //for in can also return a value not only keys
+}
