@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>SheCodes</title>
+  <style>
+    body {
+      font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+    }
+
+    section {
+      margin: 120px 0;
+    }
+
+    h1,
+    h2 {
+      font-weight: 900;
+      font-size: 34px;
+      line-height: 48px;
+      margin: 0;
+    }
+
+    h1 {
+      color: #272044;
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      color: #885df1;
+      padding: 0 0 24px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      font-family: PT Mono, monospace;
+      text-align: center;
+    }
+
+    button {
+      border-radius: 25px;
+      margin: 0 auto;
+      display: block;
+      background-color: #fff;
+      border: 1px solid #885df1;
+      color: #885df1;
+      font-size: 16px;
+      line-height: 22px;
+      padding: 16px 24px;
+      text-decoration: none;
+      transition: all 200ms ease;
+    }
+
+    button:hover {
+      color: #fff;
+      background: #885df1;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <h1>
+      👩‍💻 She Codes is a Coding Workshop for Women
+    </h1>
+    <h2>
+      Access a new career in Technology
+    </h2>
+    <p>
+      She Codes teaches coding, design and management skills to women
+      <br />
+      <strong>
+        Limited amount of spots!
+      </strong>
+    </p>
+    <br />
+    <button>
+      Apply Now
+    </button>
+  </section>
+  <script>
+
+    ///////////////////VARIABLES
+    // let hometown = prompt("What is your hometown?")
+    // alert("hometwon");
+
+    // let firstName = prompt("What is your first name?")
+    // let lastName = prompt("What is your last name?")
+    // let fullName = (firstName + " " + lastName);
+
+    // alert(fullName);
+
+
+    ///////////////////IF STATEMENT
+    // let age = prompt('How old are you?');
+
+    // if (age >= 18) {
+    //   alert('You can apply to SheCodes');
+    // }
+
+    // if (age < 18) {
+    //   alert("You cannot apply to SheCodes");
+    // }
+
+    /////////////////IF/ELSE STATEMENT
+
+    // let currentHour = prompt('What is your current hour?');
+
+    // if (currentHour < 12) {
+    //   alert('Goodmorning');
+    // } else if (currentHour >= 12 && currentHour < 18) {
+    //   alert('Good afternoon');
+    // } else if (currentHour >= 18) {
+    //   alert('Good evening');
+    // }
+
+    /////////////LOGICAL OPERATORS
+    // let country = prompt("What country are you from?");
+
+    // country = country.toLowerCase();
+    // country = country.trim();
+    // country = country.replace("brasil", "brazil");
+
+    // if (country === "portugal" || country === "brazil") {
+    //   alert('You can speak Portuguese');
+    // } else {
+    //   alert("You don't speak Portuguese")
+    // }
+
+
+    ///////////FUNCTIONS
+    // function askForCountry() {
+    //   let country = prompt("What country are you from?");
+
+    //   country = country.toLowerCase();
+    //   country = country.trim();
+    //   country = country.replace("brasil", "brazil");
+
+    //   if (country === "portugal" || country === "brazil") {
+    //     alert('You can speak Portuguese');
+    //   } else {
+    //     alert("Go learn Portuguese")
+    //   }
+    // }
+
+    // askForCountry();
+
+    // askForCountry();
+
+    // askForCountry();
+
+    /////////////////EVENT LISTENER
+
+    // function welcomeMessage() {
+
+    //   let userName = prompt("What is your name?");
+    //   let userAge = prompt("What is your age?");
+
+    //   let h1 = document.querySelector("h1");
+
+    //   if (userAge >= 18) {
+    //     h1.innerHTML = "Hi, " + userName + "! Welcome to SheCodes!";
+    //   } else {
+    //     h1.innerHTML = "Sorry, " + userName + "! You cannot join SheCodes!";
+    //   }
+
+    // }
+
+    // let button = document.querySelector("button");
+    // button.addEventListener("click", welcomeMessage);
+
+    ///////////////////CODE REFACTORING
+    function updateH1(newH1) {
+      let h1 = document.querySelector("h1");
+      h1.innerHTML = newH1;
+    }
+
+    function canApply() {
+      let userAge = prompt("What is your age?");
+      return userAge >= 18;
+    }
+
+
+    function welcomeMessage() {
+
+      let userName = prompt("What is your name?");
+
+      if (canApply()) {
+        updateH1(`Hi, ${userName}! Welcome to SheCodes!`);
+      } else {
+        updateH1(`Sorry, ${userName}! You cannot join SheCodes!`);
+      }
+
+    }
+
+    let button = document.querySelector("button");
+    button.addEventListener("click", welcomeMessage);
+
+  </script>
+</body>
+
+</html>

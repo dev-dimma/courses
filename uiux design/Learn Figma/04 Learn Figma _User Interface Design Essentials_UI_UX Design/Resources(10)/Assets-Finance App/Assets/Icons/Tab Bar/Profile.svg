@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="25px" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>single-01</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Homepage" transform="translate(-288.000000, -743.000000)" stroke="#3A3A3A" stroke-width="1.05">
+            <g id="Tab-Bar" transform="translate(0.000000, 720.000000)">
+                <g id="Tabs" transform="translate(66.000000, 23.000000)">
+                    <g id="single-01" transform="translate(223.000000, 1.000000)">
+                        <path d="M10.4545455,11.5 L10.4545455,11.5 C7.56752273,11.5 5.22727273,9.15975 5.22727273,6.27272727 L5.22727273,5.22727273 C5.22727273,2.34025 7.56752273,0 10.4545455,0 L10.4545455,0 C13.3415682,0 15.6818182,2.34025 15.6818182,5.22727273 L15.6818182,6.27272727 C15.6818182,9.15975 13.3415682,11.5 10.4545455,11.5 Z" id="Path"></path>
+                        <path d="M20.9090909,19.2656364 C20.9090909,17.6446591 19.8458636,16.2191818 18.2917955,15.7570909 C16.4538864,15.2103182 13.7414545,14.6363636 10.4545455,14.6363636 C7.16763636,14.6363636 4.45520455,15.2103182 2.61729545,15.7570909 C1.06322727,16.2191818 0,17.6446591 0,19.2656364 L0,23 L20.9090909,23 L20.9090909,19.2656364 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

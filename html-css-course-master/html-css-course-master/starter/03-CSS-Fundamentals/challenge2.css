@@ -1,16 +1,32 @@
-body {
-  border: 4px solid #000;
-  font-family: sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-h2 {
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+
+/* PRODUCT */
+.product {
+  border: 4px solid #000;
+}
+
+.product-title {
   font-size: 22px;
-  line-height: 1.5;
   text-align: center;
   text-transform: uppercase;
   background-color: #f7f7f7;
+  padding: 15px;
 }
 
+/* PRODUCT INFORMATION */
 .price {
   font-size: 24px;
 }
@@ -20,37 +36,53 @@ h2 {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
-a {
+.more-info:link,
+.more-info:visited {
   color: #000;
 }
 
-a:hover {
+.more-info:hover,
+.more-info:active {
   text-decoration: none;
 }
 
-.product-details {
+.details-title {
   text-transform: uppercase;
-  font-size: 20px;
-  letter-spacing: -1px;
-  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
-ul li {
+.details-list {
   list-style: square;
-  line-height: 1.5;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
-button {
+.details-list li {
+  margin-bottom: 10px;
+}
+
+.details-list li:last-of-type {
+  margin-bottom: 0;
+}
+
+/* BUTTON */
+.add-cart {
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+  border: none;
+  color: #fff;
   font-size: 20px;
   text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  border: none;
+  cursor: pointer;
 }
 
-button:hover {
+.add-cart:hover {
   background-color: #fff;
   color: #000;
 }

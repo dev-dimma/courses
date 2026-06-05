@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,35 +5,38 @@
     <title>HTML and CSS Course || Challenge 2</title>
     <link rel="stylesheet" href="/starter/03-CSS-Fundamentals/challenge2.css" />
   </head>
+
   <body>
-    <article>
-      <h2>Converse Chuck Taylor All Star Low Top</h2>
+    <div class="container">
+      <article class="product">
+        <h2 class="product-title">Converse Chuck Taylor All Star Low Top</h2>
+        <img
+          src="https://i.ibb.co/Jr7Wh1d/challenges.jpg"
+          alt="Chuck Taylor All Star Shoe"
+          width="250"
+          height="250"
+        />
 
-      <img
-        src="https://i.ibb.co/Jr7Wh1d/challenges.jpg"
-        alt="Chuck Taylor All Star Shoe"
-        width="250"
-        height="250"
-      />
+        <p class="price"><strong> $65.00</strong></p>
+        <p class="transportation">Free Shipping</p>
+        <p>
+          Ready to dress up or down, these classic canvas Chucks are an everyday
+          wardrobe staple.
+        </p>
 
-      <p><strong> $65.00</strong></p>
-      <p>Free Shipping</p>
-      <p>
-        Ready to dress up or down, these classic canvas Chucks are an everyday
-        wardrobe staple.
-      </p>
+        <a class="more-info" href="https://www.converse.com"
+          >More Information &rarr;</a
+        >
 
-      <a href="#">More Information &rarr;</a>
+        <h3 class="details-title">Product details</h3>
+        <ul class="details-list">
+          <li>Lightweight, durable canvas sneaker</li>
+          <li>Lightly padded footbed for added comfort</li>
+          <li>Iconic Chuck Taylor ankle patch</li>
+        </ul>
 
-      <h3>Product details</h3>
-
-      <ul>
-        <li>Lightweight, durable canvas sneaker</li>
-        <li>Lightly padded footbed for added comfort</li>
-        <li>Iconic Chuck Taylor ankle patch</li>
-      </ul>
-
-      <button>Add to cart</button>
-    </article>
+        <button class="add-cart">Add to cart</button>
+      </article>
+    </div>
   </body>
 </html>

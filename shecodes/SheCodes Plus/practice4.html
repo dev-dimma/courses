@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> HTML Form</title>
+  <style>
+    form {
+      width: 250px;
+      padding: 15px;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+    .form-group {
+      margin: 10px 10px 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="/submit">
+
+    <h1>Welcome back</h1>
+
+    <div class="form-group">
+      <label for="email">Enter your email address</label>
+      <input type="text" id="email" name="email" required>
+    </div>
+
+
+
+    <div class="form-group">
+      <label for="password">Enter your password </label>
+      <input type="text" id="password" name="password">
+    </div>
+
+
+    <div class="form-group">
+      <input type="submit" value="Login">
+    </div>
+  </form>
+
+
+</body>
+
+</html>

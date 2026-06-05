@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Travel - My Hobby</title>
+  <style>
+    .container {
+      margin: 20px auto;
+      max-width: 600px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+
+    body {
+      background: plum;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto;
+      border: 1px solid plum;
+      background: white;
+      font-size: 20px;
+      border-radius: 6px;
+      padding: 10px 15px;
+      transition: all 150ms ease-in-out
+    }
+
+    button:hover {
+      background: plum;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    .dark-theme {
+      font-size: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background: black;
+      color: plum;
+      padding: 10px 10px;
+      border-radius: 50px;
+    }
+
+    .dark-theme:hover {
+      background: white;
+      color: black;
+    }
+
+    .luxury-travel-picture {
+      border-radius: 10px;
+      transition: all 150ms ease-in-out;
+
+
+    }
+
+    .luxury-travel-picture:hover {
+      filter: contrast(50%);
+      transform: scale(1.1);
+    }
+
+    .grid {
+      margin: 15px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+
+    .grid img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+    }
+
+    .dark {
+      background: black;
+      color: white;
+    }
+
+    .dark .container {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .dark a {
+      color: plum;
+    }
+
+    .dark button {
+      background: rgba(255, 255, 255, 0.1);
+      color: plum;
+      border: none;
+    }
+
+    .connect {
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+      background: plum;
+      color: black;
+      border-radius: 50px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button class="dark-theme">Change theme</button>
+  <div class="container">
+
+    <h1>✈ What is Luxury Travel</h1>
+
+    <h2>My favourite kind of travel</h2>
+
+    <a href="https://www.luxurytravelmagazine.com/" target="_blank">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/717/original/download_%281%29.jpg?1732969220"
+        alt="Luxry Travel" class="luxury-travel-picture">
+    </a>
+
+    <div class="grid">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/725/original/download_%283%29.jpg?1732970455 "
+        alt="Luxury Travel">
+
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/718/original/images_%284%29.jpg?1732969262"
+        alt="Luxury Travel">
+      <img src="
+      https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/722/original/images_%282%29.jpg?1732969733"
+        alt="Luxury Travel">
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/724/original/download_%282%29.jpg?1732970444"
+        alt="Luxury Travel">
+    </div>
+
+    <p>Luxury travel refers to premium travel experiences that prioritize comfort, exclusivity, and personalized
+      service.
+      It is
+      characterized by high-end accommodations, seamless itineraries, and unique, tailored experiences designed to
+      create
+      memorable journeys for travelers seeking the finest offerings.
+    </p>
+
+    <a href="https://www.luxurytravelmagazine.com/"> 📖 Read on Wikipedia</a>
+
+    <button class="connect">Connect With Me</button>
+
+
+    <footer>
+      Coded by <a href="https://www.linkedin.com/in/dimma-joel-technology-front-end-developer-technical-writer/"
+        target="_blank">Dimma Joel</a> with HTML, CSS and Javascript.
+    </footer>
+  </div>
+
+  <script>
+    function changeTheme() {
+      let body = document.querySelector("body");
+
+      // body.classList.toggle("dark");
+
+      if (body.classList.contains("dark")) {
+        body.classList.remove("dark");
+      } else {
+        body.classList.add("dark");
+      }
+    }
+
+    let themeButton = document.querySelector(".dark-theme");
+    themeButton.addEventListener("click", changeTheme);
+
+    function connectWithMe() {
+      let welcomeQuestion = prompt("Do you love luxury travel?");
+
+      let firstName = prompt("What is your first name");
+      let email = prompt("What is your email");
+
+      alert(`Thanks, ${firstName}! It’s a pleasure to meet you. I’m looking forward to embarking on our next travel adventure together!`);
+    }
+
+    let contactInfo = document.querySelector(".connect");
+    contactInfo.addEventListener("click", connectWithMe);
+  </script>
+
+</body>
+
+</html>

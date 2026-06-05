@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-in" transform="translate(-312.000000, -460.000000)" fill="#CB3EF9" fill-rule="nonzero">
+            <g id="Textfields" transform="translate(30.000000, 429.000000)">
+                <g id="Email-Address">
+                    <path d="M299.736394,31.2592541 C299.384938,30.913582 298.815126,30.913582 298.463599,31.2592541 L287.68105,41.8633833 L283.536414,37.7873694 C283.184958,37.4416972 282.615146,37.4417318 282.263619,37.7873694 C281.912127,38.133007 281.912127,38.6933846 282.263619,39.0390568 L287.044652,43.7408625 C287.396003,44.0865002 287.966237,44.0862581 288.317447,43.7408625 L299.736394,32.5109761 C300.087886,32.1653385 300.087851,31.6049263 299.736394,31.2592541 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
