@@ -51,3 +51,18 @@ console.log(typeof year);
 
 //NulL
 console.log(typeof null); //should return nul but returned object so it's a bug in js but never corrected for legacy reasons
+
+///////////////////////////////////////////////////
+//LET, CONST, VAR
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990;
+// const job;
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Schmedtmann";
+console.log(lastName);
