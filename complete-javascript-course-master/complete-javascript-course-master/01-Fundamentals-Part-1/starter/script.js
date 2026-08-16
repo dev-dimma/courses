@@ -30,39 +30,70 @@
 ///////////////////////////////////////////////////
 //DATA TYPES
 //Boolean and string
-let javascriptIsFun = true;
-console.log(javascriptIsFun);
+// let javascriptIsFun = true;
+// console.log(javascriptIsFun);
 
-// console.log(typeof true);
-console.log(typeof javascriptIsFun);
-// console.log(typeof 23);
-// console.log(typeof "Jonas");
+// // console.log(typeof true);
+// console.log(typeof javascriptIsFun);
+// // console.log(typeof 23);
+// // console.log(typeof "Jonas");
 
-javascriptIsFun = "Yes!";
-console.log(typeof javascriptIsFun);
+// javascriptIsFun = "Yes!";
+// console.log(typeof javascriptIsFun);
 
-//Undefined and number
-let year;
-console.log(year);
-console.log(typeof year);
+// //Undefined and number
+// let year;
+// console.log(year);
+// console.log(typeof year);
 
-year = 1991;
-console.log(typeof year);
+// year = 1991;
+// console.log(typeof year);
 
-//NulL
-console.log(typeof null); //should return nul but returned object so it's a bug in js but never corrected for legacy reasons
+// //NulL
+// console.log(typeof null); //should return nul but returned object so it's a bug in js but never corrected for legacy reasons
+
+// ///////////////////////////////////////////////////
+// //LET, CONST, VAR
+// let age = 30;
+// age = 31;
+
+// const birthYear = 1991;
+// // birthYear = 1990;
+// // const job;
+
+// var job = "programmer";
+// job = "teacher";
+
+// lastName = "Schmedtmann";
+// console.log(lastName);
 
 ///////////////////////////////////////////////////
-//LET, CONST, VAR
-let age = 30;
-age = 31;
+//BASIC OPERATORS
+//arithmetic (+, -, *, /)
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2020;
+console.log(ageJonas, ageSarah);
 
-const birthYear = 1991;
-// birthYear = 1990;
-// const job;
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 
-var job = "programmer";
-job = "teacher";
+const firstName = "Jonas";
+const lastName = "Schmedtmann";
+console.log(firstName + " " + lastName);
 
-lastName = "Schmedtmann";
-console.log(lastName);
+//assignment (=, +=, -=, )
+let x = 10 + 5;
+x += 10; //x = x + 10 = 25
+x *= 4; //x = x * 4 = 100
+x++; //x = x + 1
+x--; // x = x - 1
+x--;
+console.log(x);
+
+//comparison *(>, <, >=, <=)
+console.log(ageJonas > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
