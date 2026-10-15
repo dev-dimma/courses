@@ -1,0 +1,1 @@
+# Data types are used to describe the kind of value a variable holds.
