@@ -21,8 +21,9 @@ place_of_work = "Naelix"
 # def = "function definition keyword"
 
 # 5) Variable names must be descriptive. One should immediately understand what a variable’s for by it’s name.
-school_time = 8
-isloggedin = True
+x = 14  #wrong
+school_time = 8 # right
+isloggedin = True #right
 
 # 6) Avoid using single letter variable names. Though it's accepted in python, it doesn't explain what the variable's for.
 x = 60
